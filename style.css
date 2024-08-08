@@ -4,11 +4,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
   }
   
   body {
     font-family: Arial, sans-serif;
     background-image: linear-gradient(to bottom, #4567b7, #8e44ad); /* blue-purple gradient */
+  
   }
   
   /* Navigation Styles */
@@ -44,15 +46,22 @@
   
   /* Content Styles */
   
-  .content {
+  .testaja {
     max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff; /* white */
-    border: 1px solid #ddd; /* light gray */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 120px;
+    padding:70px;
+    padding-bottom: 50px;
+    margin-bottom: 100%;
+    background-color: #fff;
+    /*white*/border: 1px solid #ddd;
+    /*lightgray*/box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-  }
+    padding-top: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
   
   h1 {
     color: #333; /* dark gray */
@@ -97,14 +106,19 @@
   /* Button Styles */
   
   button {
-    background-color: #2f4f7f; /* dark blue */
-    color: #fff; /* white */
-    border: none;
+    background-color: #2f4f7f;
+    /*darkblue*/color: #fff;
+    /*white*/border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 4px;
     transition: background-color 0.2s;
-  }
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
   
   button:hover {
     background-color: #3f5f9f; /* lighter blue */
